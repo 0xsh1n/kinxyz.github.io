@@ -100,31 +100,6 @@ body {
    padding-left: 40px; 
  } 
   
- .plus-button-container { 
-   position: absolute; 
-   top: 20px; 
-   left: 20px; 
- } 
-  
- .plus-button { 
-   width: 40px; 
-   height: 40px; 
-   border-radius: 50%; 
-   background-color: #212121; 
-   color: #fff; 
-   font-size: 24px; 
-   display: flex; 
-   justify-content: center; 
-   align-items: center; 
-   cursor: pointer; 
-   transition: transform 0.3s; 
- } 
-  
- .plus-button.x { 
-   transform: rotate(45deg); 
- } 
-  
-  
  @keyframes pulsate-border { 
    0% { 
      border-color: #000000; 
