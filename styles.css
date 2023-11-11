@@ -16,6 +16,7 @@ body {
    height: 100vh; 
    position: fixed; 
    z-index: -1; 
+   overflow: hidden;
  } 
   
  .content { 
@@ -111,5 +112,40 @@ body {
      border-color: #000000; 
    } 
  } 
-  
  
+
+@media (max-width: 767px) {
+  body {
+    align-items: stretch;
+    overflow: hidden;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .social-button {
+    padding: 8px 20px;
+    font-size: 10px;
+  }
+
+  .avatar-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .username {
+    font-size: 18px;
+  }
+
+  .bio {
+    font-size: 14px;
+  }
+
+  .social-button.button-with-icon1,
+  .social-button.button-with-icon2,
+  .social-button.button-with-icon3 {
+    padding-left: 30px;
+    background-size: 15px 15px;
+  }
+}
