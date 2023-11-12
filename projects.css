@@ -101,7 +101,7 @@ body {
   }
 
   .container {
-    flex-direction: column;
+    display: block;
   }
 
   .project-showcase {
@@ -110,7 +110,7 @@ body {
   }
 
   .circle-button {
-    font-size: 20px; 
+    font-size: 20px;
   }
 }
 
