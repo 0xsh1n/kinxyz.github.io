@@ -95,5 +95,22 @@ body {
   cursor: pointer;
 }
 
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
 
+  .container {
+    flex-direction: column;
+  }
+
+  .project-showcase {
+    width: 90%;
+    margin: 10px;
+  }
+
+  .circle-button {
+    font-size: 20px; 
+  }
+}
 
